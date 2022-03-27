@@ -7,6 +7,8 @@ function ChessBoard() {
 
         x = parseInt(x);
         y = parseInt(y);
+        var Id0 = (x).toString() + (y).toString();
+        document.getElementById(Id0).style.background = "black";
 
         if (x + 2 >= 0 && y + 1 >= 0 && x + 2 < 8 && y + 1 < 8) {
             var Id1 = (x + 2).toString() + (y + 1).toString();
