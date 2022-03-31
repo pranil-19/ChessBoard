@@ -8,47 +8,47 @@ function ChessBoard() {
         x = parseInt(x);
         y = parseInt(y);
         var Id0 = (x).toString() + (y).toString();
-        document.getElementById(Id0).style.background = "black";
+        document.getElementById(Id0).style.background = "red";
 
         if (x + 2 >= 0 && y + 1 >= 0 && x + 2 < 8 && y + 1 < 8) {
             var Id1 = (x + 2).toString() + (y + 1).toString();
-            document.getElementById(Id1).style.background = "red";
+            document.getElementById(Id1).style.background = "rgb(81, 52, 121)";
         }
 
         if (x + 1 >= 0 && y + 2 >= 0 && x + 1 < 8 && y + 2 < 8) {
             var Id2 = (x + 1).toString() + (y + 2).toString();
-            document.getElementById(Id2).style.background = "red";
+            document.getElementById(Id2).style.background = "rgb(81, 52, 121)";
         }
 
         if (x - 1 >= 0 && y + 2 >= 0 && x - 1 < 8 && y + 2 < 8) {
             console.log("yes");
             var Id3 = (x - 1).toString() + (y + 2).toString();
-            document.getElementById(Id3).style.background = "red";
+            document.getElementById(Id3).style.background = "rgb(81, 52, 121)";
         }
 
         if (x - 2 >= 0 && y + 1 >= 0 && x - 2 < 8 && y + 1 < 8) {
             var Id4 = (x - 2).toString() + (y + 1).toString();
-            document.getElementById(Id4).style.background = "red";
+            document.getElementById(Id4).style.background = "rgb(81, 52, 121)";
         }
 
         if (x - 2 >= 0 && y - 1 >= 0 && x - 2 < 8 && y - 1 < 8) {
             var Id5 = (x - 2).toString() + (y - 1).toString();
-            document.getElementById(Id5).style.background = "red";
+            document.getElementById(Id5).style.background = "rgb(81, 52, 121)";
         }
 
         if (x - 1 >= 0 && y - 2 >= 0 && x - 1 < 8 && y - 2 < 8) {
             var Id6 = (x - 1).toString() + (y - 2).toString();
-            document.getElementById(Id6).style.background = "red";
+            document.getElementById(Id6).style.background = "rgb(81, 52, 121)";
         }
 
         if (x + 1 >= 0 && y - 2 >= 0 && x + 1 < 8 && y - 2 < 8) {
             var Id7 = (x + 1).toString() + (y - 2).toString();
-            document.getElementById(Id7).style.background = "red";
+            document.getElementById(Id7).style.background = "rgb(81, 52, 121)";
         }
 
         if (x + 2 >= 0 && y - 1 >= 0 && x + 2 < 8 && y - 1 < 8) {
             var Id8 = (x + 2).toString() + (y - 1).toString();
-            document.getElementById(Id8).style.background = "red";
+            document.getElementById(Id8).style.background = "rgb(81, 52, 121)";
         }
     }
 

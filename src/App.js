@@ -3,11 +3,9 @@ import ChessBoard from './ChessBoard';
 
 function App() {
   return (
-    <div>
-
-      <h3>Click on any point and it will show all the possible move that a Knight can make throught that position!</h3>
+    <div style={{backgroundColor: "grey" , textAlign:"center" , fontFamily:"cursive"}}>
+      <h2 style={{fontWeight : "500"}}>Choose the current position of knight and it will find all the possible places where the knight can move!!</h2>
       <ChessBoard />
-
     </div>
   );
 }
